@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these numerical tools, please cite the associated TD3R Zenodo record or the software DOI once minted."
+title: "TD3R-Numerical-Tools"
+type: software
+authors:
+  - family-names: "Taburet"
+    given-names: "Yves-Pol"
+version: "2026.1"
+date-released: "2026-09-06"
+keywords:
+  - TD3R
+  - E6
+  - Kaluza-Klein
+  - orbifold
+  - radion
+  - discrete scale invariance

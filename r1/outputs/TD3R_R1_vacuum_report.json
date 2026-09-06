@@ -1,0 +1,14 @@
+{
+  "D_terms_E6": {"D_I": 0.0, "D_II": 0.0, "Im_D_III": 0.0, "Re_D_III": 0.0, "adjoint_commutator": 0.0, "conjugate_pair_mismatch": 0.0},
+  "F_terms_E6": {"c1": 0.0, "c2": -6.56858655152258e-17, "d1": 0.0, "d2": -6.56858655152258e-17, "e1": 0.0, "e2": 0.0, "e3": -8.758115402030106e-17, "e4": -1.313717310304516e-16, "e5": 0.0, "f1": 0.0, "f2": 0.0, "f3": -8.758115402030106e-17, "f4": -1.313717310304516e-16, "f5": 0.0, "u1": 0.0, "u2": 0.0, "v": 0.0, "w": -4.379057701015053e-17, "y": 0.0},
+  "U1F": {"D_F": 0.0, "F_Sminus": 0.0, "F_Splus": 0.0, "F_X": 0.0, "M_FF_over_gF2": 8.0, "Sminus": 1.0, "Splus": 1.0, "X": 0.0},
+  "basis": "SM irreducible mass-eigenstate basis; related to a Chevalley basis by an orthogonal similarity transform",
+  "matrix_shape": [78, 78],
+  "max_abs_F_E6": 1.313717310304516e-16,
+  "maximum_eigenvalue": 16.666666666666664,
+  "minimum_positive_eigenvalue": 1.6666666666666667,
+  "nullity": 12,
+  "rank": 66,
+  "status": "existence/compatibility benchmark; not a derivation of the Higgs sector from the 6D TD3R action",
+  "trace": 288.00000000000006
+}
