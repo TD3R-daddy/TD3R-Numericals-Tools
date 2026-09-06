@@ -63,8 +63,12 @@ python fibonacci_dsi/fibonacci_dsi.py
 
 ## Citation
 
-When this repository is released publicly and archived on Zenodo, cite the DOI minted for the software/data object or the associated TD3R Zenodo record. No DOI is hard-coded before it exists.
+Please cite the associated TD3R Zenodo record or the software DOI once minted. No DOI is hard-coded before it exists.
+
+## License
+
+The source code in this repository is released under the MIT License. See `LICENSE`.
 
 ## Current release status
 
-**Private review repository.** Content is being checked before public release and Zenodo linking.
+**Public reproducibility repository.** Release `2026.1` is being prepared for Zenodo archiving and DOI assignment.
