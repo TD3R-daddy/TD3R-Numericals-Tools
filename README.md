@@ -1,6 +1,9 @@
-# TD3R-Numericals-Tools
+# TD3R-Numerical-Tools
 
 Companion reproducibility repository for the journal-style synthesis of TD3R by Yves-Pol Taburet.
+
+**Author:** Yves-Pol Taburet  
+**ORCID:** https://orcid.org/0009-0004-1698-7900
 
 ## Scope
 
