@@ -1,0 +1,75 @@
+{
+  "benchmark": {
+    "d_term_argument": -0.2064015112581412,
+    "gradient_inf_norm": 3.0723534827359344e-11,
+    "local_minimum_after_gauge_quotient": true,
+    "phase_eigenvalues_coordinate": [
+      -1.1102230246251565e-16,
+      8.447861728613905
+    ],
+    "phase_hessian_rank": 1,
+    "phase_hessian_theta_sigma": [
+      [
+        7.603075555752515,
+        2.5343585185841717
+      ],
+      [
+        2.5343585185841717,
+        0.8447861728613906
+      ]
+    ],
+    "potential": -0.6627179191436835,
+    "psi": 0.0,
+    "radial_eigenvalues": [
+      4.768964646174512,
+      21.117172532410727
+    ],
+    "radial_hessian": [
+      [
+        10.652443459291653,
+        -7.846592367818469
+      ],
+      [
+        -7.846592367818469,
+        15.233693719293584
+      ]
+    ],
+    "rho": 1.942838478063334,
+    "s": 1.1519581680919948,
+    "solver_success": true
+  },
+  "discrete_group": {
+    "condensing_scalar_charge_absolute": 3,
+    "result": "Z_3",
+    "stueckelberg_residual_order": 72,
+    "unbroken_order": 3
+  },
+  "parameters": {
+    "gauge_g": 0.5,
+    "i3_u": 1.0,
+    "kappa": 0.05,
+    "lambda_phi": 1.0,
+    "lambda_s": 1.0,
+    "v_phi": 1.7320508075688772,
+    "v_s": 1.0,
+    "xi": 0.0
+  },
+  "robustness": {
+    "failures": [],
+    "grid": {
+      "gauge_g": [
+        0.2,
+        1.0,
+        9
+      ],
+      "kappa": [
+        0.005,
+        0.1,
+        20
+      ]
+    },
+    "points": 180,
+    "smallest_radial_eigenvalue": 3.345507162217751
+  },
+  "status_scope": "EFT existence test only; coefficients and the renormalized FI term are not derived microscopically"
+}

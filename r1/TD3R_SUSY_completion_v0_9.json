@@ -1,0 +1,132 @@
+{
+  "decision": {
+    "factorized_R1_plus_charge2_plus_charge3": "F=D=0 is possible in global SUSY, but the U(1)_F residual is trivial.",
+    "jordan_branch": "SUSY Minkowski GO, but not a simultaneous final R1 vacuum.",
+    "single_branch_closing_both_claims": false,
+    "singlet_branch": "SUSY Minkowski GO compatible with R1, but no Jordan selection.",
+    "supergravity_and_6D_completion": "open"
+  },
+  "global_group_audit": {
+    "U1_only_with_S_minus3_VEV": "Z_3",
+    "U1_only_with_S_minus3_and_Phi_plus1_VEVs": "trivial",
+    "decision": "the charge-2 Yukawa dressing and a residual Z_3^F cannot both be retained",
+    "diagonal_quotient_(E6xU1)/Z3": "forbidden by the neutral 27_H: the proposed quotient kernel acts as omega on 27_0",
+    "full_R1_with_charge_2_and_charge_3_VEVs": "trivial",
+    "global_group_selected_by_R1_representations": "E6 x U(1)_F",
+    "jordan_branch_in_direct_product": "a diagonal Z_3 can remain by combining alpha=2pi/3 with the inverse E6 center",
+    "residual_order_formula_full_R1": "gcd(72, 3, 2) = 1",
+    "singlet_branch_with_charge_3_VEVs_only": "Z_3",
+    "stueckelberg_order_assumed": 72
+  },
+  "jordan_branch": {
+    "D_term_zero": true,
+    "F_terms_zero": true,
+    "R1_compatibility": {
+      "I3_on_standard_model_singlet_subspace": 0,
+      "I3_required_nonzero": true,
+      "preserves_R1_standard_model": false,
+      "reason": "The 27 cubic vanishes on the two SM-singlet VEV directions."
+    },
+    "W_zero": true,
+    "analytic_mass_squared": {
+      "goldstone_before_gauge_fixing": 0.0,
+      "massive_U1_vector_multiplet": 2.0000000000000187,
+      "two_chiral_multiplets": 4.0
+    },
+    "analytic_real_hessian_eigenvalues": [
+      0.0,
+      2.0000000000000187,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "chiral_fermion_mass_eigenvalues": [
+      -2.0,
+      0.0,
+      2.0
+    ],
+    "field_charges": {
+      "Phi": 1,
+      "S": -3,
+      "X": 0
+    },
+    "gaugino_higgsino_dirac_mass": 1.4142135623731016,
+    "hessian_max_abs_difference": 6.813094266533426e-08,
+    "numerical_real_hessian_eigenvalues": [
+      8.125009776094316e-09,
+      1.9999999631262162,
+      4.000000000000002,
+      4.000000000000002,
+      4.000000003125001,
+      4.000000068130943
+    ],
+    "positive_after_gauge_quotient": true,
+    "superpotential": "kappa X (S I3(Phi)/Lambda^2 - mu^2)",
+    "supertrace_M2_exact_SUSY": 0.0,
+    "unique_positive_radial_solution": true,
+    "vacuum": {
+      "I3_times_S": 0.5773502691896258,
+      "X": 0.0,
+      "rho": 0.9999999999999977,
+      "s": 0.5773502691896298
+    }
+  },
+  "robustness_scan_jordan": {
+    "failures": [],
+    "points": 576,
+    "tolerance": 5e-06
+  },
+  "scope": "Complete local 4D N=1 phase-sector audit; not a 6D microscopic derivation.",
+  "singlet_branch": {
+    "D_term_zero": true,
+    "F_terms_zero": true,
+    "R1_compatibility": {
+      "derives_Jordan_27_orientation": false,
+      "preserves_E6": true,
+      "preserves_R1_standard_model": true
+    },
+    "W_zero": true,
+    "analytic_mass_squared": {
+      "goldstone_before_gauge_fixing": 0.0,
+      "massive_U1_vector_multiplet": 9.0,
+      "two_chiral_multiplets": 2.0
+    },
+    "analytic_real_hessian_eigenvalues": [
+      0.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      9.0
+    ],
+    "chiral_fermion_mass_eigenvalues": [
+      -1.4142135623730951,
+      0.0,
+      1.4142135623730951
+    ],
+    "field_charges": {
+      "B": 3,
+      "S": -3,
+      "X": 0
+    },
+    "gaugino_higgsino_dirac_mass": 3.0,
+    "hessian_max_abs_difference": 5.625000021325377e-09,
+    "numerical_real_hessian_eigenvalues": [
+      5.625000021325377e-09,
+      2.0,
+      2.0,
+      2.0000000056245155,
+      2.000000005625,
+      9.000000005618105
+    ],
+    "positive_after_gauge_quotient": true,
+    "superpotential": "kappa X (S_-3 B_+3 - v^2)",
+    "supertrace_M2_exact_SUSY": 0.0,
+    "vacuum": {
+      "B": 1.0,
+      "S": 1.0,
+      "X": 0.0
+    }
+  }
+}

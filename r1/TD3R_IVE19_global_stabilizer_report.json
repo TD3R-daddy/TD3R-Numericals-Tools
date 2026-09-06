@@ -1,0 +1,308 @@
+{
+  "F_flatness_perturbations": {
+    "conclusion": "v et w ne sont pas des modules libres \u00e0 param\u00e8tres gel\u00e9s. Un scan physique doit re-minimiser simultan\u00e9ment les 19 VEVs et, pour une preuve compl\u00e8te, tous les composants de Higgs.",
+    "max_abs_F_with_other_fields_and_couplings_frozen": {
+      "benchmark": 1.313717310304516e-16,
+      "v+1%": 0.004564354645876438,
+      "v+1%,w-1%": 0.004714045207910168,
+      "v+10%": 0.04564354645876385,
+      "v+10%,w-10%": 0.047140452079103085,
+      "v+5%": 0.022821773229381927,
+      "v+5%,w-5%": 0.023570226039551456,
+      "v-1%": 0.00456435464587635,
+      "v-1%,w+1%": 0.0047140452079103435,
+      "v-10%": 0.04564354645876385,
+      "v-10%,w+10%": 0.04714045207910335,
+      "v-5%": 0.022821773229381927,
+      "v-5%,w+5%": 0.023570226039551716,
+      "w+1%": 0.0047140452079103435,
+      "w+10%": 0.04714045207910335,
+      "w+5%": 0.023570226039551716,
+      "w-1%": 0.004714045207910168,
+      "w-10%": 0.047140452079103085,
+      "w-5%": 0.023570226039551456
+    }
+  },
+  "U1F": {
+    "condensed_charges": [
+      2,
+      -2
+    ],
+    "primitive_charge_present": 1,
+    "residual_group": "Z_2^F"
+  },
+  "charge_lattice": {
+    "basis_change_tests": [
+      {
+        "det": 1,
+        "matrix": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "smith": [
+          1,
+          20
+        ]
+      },
+      {
+        "det": -1,
+        "matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "smith": [
+          1,
+          20
+        ]
+      },
+      {
+        "det": 1,
+        "matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "smith": [
+          1,
+          20
+        ]
+      },
+      {
+        "det": -1,
+        "matrix": [
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "smith": [
+          1,
+          20
+        ]
+      }
+    ],
+    "charges": [
+      [
+        -5,
+        1
+      ],
+      [
+        -10,
+        2
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        -4
+      ]
+    ],
+    "interpretation": "Les charges E6 ne sont pas des param\u00e8tres libres. Un changement de base GL(2,Z) conserve la conclusion; des charges arbitrairement diff\u00e9rentes d\u00e9finiraient un autre mod\u00e8le.",
+    "smith": [
+      1,
+      20
+    ]
+  },
+  "closure_ledger": {
+    "CLASS_CAMB": {
+      "needed": "A perturbation-consistent implementation of the TD3R background, scalar equations and initial conditions; mu/Sigma alone are insufficient for CMB.",
+      "status": "separate_open_program"
+    },
+    "all_root_orbits": {
+      "result": "20+20+10+2=52 outside SU(5); plus 20 SU(5) roots; the complete 78-state spectrum is checked separately",
+      "status": "closed_for_gauge_boson_kernel"
+    },
+    "chapter29_compatibility": {
+      "geometry": "No contradiction with T2/Z3 if R1 is the sequential 4D/localized Higgsing after production of complete 27 families.",
+      "green_schwarz": "Chapter 29 calls the non-abelian E6 core compatible, but leaves the U(1)_F/abelian, mixed and localized anomaly sectors open.",
+      "not_derived": "Orbifold parities/zero modes for 27+27bar+351'+351'bar+78, their localization, the full GS lattice and localized charges.",
+      "status": "compatible_at_4D_EFT_level_only",
+      "triadic_structure": "The orbifold isotropy Z3 and the Higgs remnant Z_2^F are distinct groups; IV-E19 neither identifies nor conflicts with them."
+    },
+    "complete_scalar_hessian": {
+      "needed": "representation matrices and potential derivatives for every component of 27+27bar+351'+351'bar+78, gauge fixing included",
+      "partial_result": "19-singlet F-term Hessian only",
+      "status": "open"
+    },
+    "frozen_ACT_SPT_to_DESI_Rubin_test": {
+      "requirement": "Pre-register parameter vector, priors, scale cuts and likelihoods; fit ACT+SPT-3G once, then keep them frozen for DESI/Rubin predictions.",
+      "status": "protocol_defined_but_not_executed"
+    },
+    "full_displayed_EFT_stabilizer": {
+      "result": "S(U(3)xU(2)) x Z_2^F",
+      "status": "closed_within_R1_EFT"
+    },
+    "global_E6_stabilizer": {
+      "result": "S(U(3)xU(2))",
+      "status": "closed_within_R1_EFT"
+    },
+    "mphi_proportional_1_plus_z": {
+      "reason": "It follows in the V_T-dominated closure; the microscopic origin and normalization of V_T remain open.",
+      "status": "parameterized_benchmark_not_fundamental_prediction"
+    },
+    "multifield_H_KK_hierarchy": {
+      "limitation": "The complete covariant scalar Hessian is still absent.",
+      "result": "The script can test supplied H/M_G and Lambda_KK/M_G against the restricted 19-singlet F-term eigenvalues.",
+      "status": "partially_implemented"
+    },
+    "origin_of_v_equals_w_equals_1": {
+      "needed": "derive fixed couplings from the 6D/racetrack/BION/chi theory, then minimize without fixing the VEVs by hand",
+      "status": "open"
+    },
+    "primordial_to_boltzmann_to_sigma8": {
+      "status": "separate_open_program",
+      "warning": "It cannot be closed by the IV-E19 group-theory script. It requires primordial initial conditions and a CLASS/CAMB implementation."
+    },
+    "radiative_stability": {
+      "needed": "field-dependent full spectrum, renormalization prescription and Coleman-Weinberg Hessian",
+      "status": "open"
+    },
+    "radion_baryon_fisher_Rubin_Y10": {
+      "needed": "Boltzmann spectra, Rubin Y10 data vector/covariance, source n(z), photo-z, intrinsic-alignment and baryonic-feedback nuisance models.",
+      "status": "separate_open_program"
+    },
+    "radion_coupling": {
+      "needed": "Einstein-frame kinetic metric and b-dependent prefactors of m27,m351,m78,lambda_i and the Higgs Kahler potential",
+      "status": "open"
+    }
+  },
+  "full_gauge_mass_78": {
+    "Lie_algebra_if_kernel_is_12": "su(3)+su(2)+u(1)",
+    "SM_Lie_algebra_kernel": true,
+    "dimension": 78,
+    "kernel_dimension": 12,
+    "maximum_eigenvalue": 16.666666666666664,
+    "minimum_positive_eigenvalue": 1.6666666666666667,
+    "negative_eigenvalues": 0,
+    "rank": 66,
+    "scope": "all 78 gauge bosons; non-adjoint VEVs frozen at benchmark",
+    "warning": "A displaced (v,w) generally violates F-flatness unless all fields are re-minimized; this is a stabilizer audit, not a vacuum solution."
+  },
+  "gamma20": {
+    "generator": "(zeta^2, exp(i*pi/10), exp(i*pi/2))",
+    "order": 20,
+    "verified_on": [
+      "10",
+      "bar5_16",
+      "1_16",
+      "5_10",
+      "bar5_10",
+      "1_1"
+    ]
+  },
+  "hierarchy_diagnostic": {
+    "evaluated": false,
+    "reason": "H/M_G et Lambda_KK/M_G ne sont pas fournis. M\u00eame fournis, le test resterait born\u00e9 \u00e0 la Hessienne F des singulets."
+  },
+  "restricted_singlet_F_hessian": {
+    "condition_number_physical_subspace": 283256.5736848319,
+    "dimension": 19,
+    "eigenvalues": [
+      -1.8805430442859182e-15,
+      -8.7778039944752e-16,
+      1.5841150662270983e-16,
+      1.874874041614622e-15,
+      8.825920498587602e-05,
+      0.02858248507444601,
+      0.03018063347661863,
+      0.17566897691013872,
+      0.2019214854797179,
+      1.9924236350170643,
+      2.174582623193092,
+      2.5185353175881726,
+      6.594605591211397,
+      7.348052175141793,
+      9.003727781818576,
+      13.062805860505444,
+      18.254374839154295,
+      22.941972463722003,
+      25.000000000446473
+    ],
+    "interpretation": "Les quatre z\u00e9ros sont compatibles avec les quatre multiplets de Goldstone neutres attendus, mais leur identification exige les vecteurs propres de jauge. Cette Hessienne ne ferme pas la stabilit\u00e9 scalaire compl\u00e8te.",
+    "maximum_eigenvalue": 25.000000000446473,
+    "minimum_positive_eigenvalue": 8.825920498587602e-05,
+    "negative_modes": 0,
+    "nullity": 4,
+    "rank": 15,
+    "sector": "19 SM-singlet real coordinates; F-term only",
+    "units": "M_G^2 in the IV-E18 coordinate convention"
+  },
+  "root_orbits": {
+    "E6_roots_total": 72,
+    "SU5_roots": 20,
+    "adjoint_centralizer_regular": true,
+    "centralizer_if_regular": "(SU(5)xU(1)_chi x U(1)_psi)/Gamma_20",
+    "mass_coefficients": {
+      "(16+16bar)/(1+1)": 0.0423388845975277,
+      "(16+16bar)/(10+10bar)": 0.13756722179308611,
+      "(16+16bar)/(5+5bar)": 0.7872983346207417,
+      "45/(10+10bar)": 0.26666666666666666
+    },
+    "minimum_mass_coefficient": 0.0423388845975277,
+    "multiplicities": {
+      "(16+16bar)/(1+1)": 2,
+      "(16+16bar)/(10+10bar)": 20,
+      "(16+16bar)/(5+5bar)": 10,
+      "45/(10+10bar)": 20
+    },
+    "outside_SU5_roots": 52,
+    "v": 1.0,
+    "w": 1.0,
+    "wall_functions": {
+      "v=0": 1.0,
+      "v=sqrt(15)w": 2.872983346207417,
+      "w=-sqrt(3/5)v": 1.7745966692414834,
+      "w=sqrt(5/3)v": 0.20576414798872933
+    }
+  },
+  "scope": "TD3R IV-E19/R1 global stabilizer and bounded robustness audit",
+  "torus_absorption": {
+    "covering_torus_solutions": 20,
+    "identified_with": "Gamma_20",
+    "physical_component_group_in_E6": "trivial"
+  },
+  "vw_scan": {
+    "box": {
+      "points_per_axis": 101,
+      "samples": 10201,
+      "v": [
+        0.9,
+        1.1
+      ],
+      "w": [
+        0.9,
+        1.1
+      ]
+    },
+    "interpretation": "Robustesse du type de centralisateur seulement. Elle ne prouve pas que chaque point est un extremum du potentiel.",
+    "minimum_at": [
+      0.9,
+      1.1
+    ],
+    "minimum_mass_coefficient": 0.0019154957515524211,
+    "singular_samples": 0
+  }
+}
