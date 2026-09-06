@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: "Taburet"
     given-names: "Yves-Pol"
+    orcid: "https://orcid.org/0009-0004-1698-7900"
 version: "2026.1"
 date-released: "2026-09-06"
 keywords:
